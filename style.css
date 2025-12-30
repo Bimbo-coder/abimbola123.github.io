@@ -6,29 +6,45 @@
 }
 
 body {
-    background-color: #f9fafc;
+    background-color: #f5f7fb;
     color: #333;
+    line-height: 1.6;
 }
 
 nav {
     background-color: #1e293b;
     color: white;
-    padding: 15px 30px;
+    padding: 20px 30px;
 }
 
 .hero {
     text-align: center;
-    padding: 60px 20px;
+    padding: 70px 20px;
     background-color: #e0f2fe;
 }
 
 .hero h1 {
-    font-size: 32px;
+    font-size: 34px;
     margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
 }
 
 section {
     padding: 40px 30px;
+}
+
+.about,
+.education,
+.skills,
+.goals,
+.contact {
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 30px;
 }
 
 h2 {
@@ -36,23 +52,18 @@ h2 {
     color: #1e293b;
 }
 
-.about, .skills, .contact {
-    background-color: white;
-    margin: 20px;
-    border-radius: 8px;
-}
-
 ul {
     margin-left: 20px;
 }
 
 li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     background-color: #1e293b;
     color: white;
+    margin-top: 40px;
 }
