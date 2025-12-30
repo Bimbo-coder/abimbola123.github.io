@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9fafc;
+    color: #333;
+}
+
+nav {
+    background-color: #1e293b;
+    color: white;
+    padding: 15px 30px;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e0f2fe;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 40px 30px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #1e293b;
+}
+
+.about, .skills, .contact {
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1e293b;
+    color: white;
+}
