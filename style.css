@@ -9,12 +9,28 @@ body {
     background-color: #f5f7fb;
     color: #333;
     line-height: 1.6;
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+    background-color: #0f172a;
+    color: #e5e7eb;
 }
 
 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #1e293b;
     color: white;
     padding: 20px 30px;
+}
+
+nav button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .hero {
@@ -23,13 +39,14 @@ nav {
     background-color: #e0f2fe;
 }
 
-.hero h1 {
-    font-size: 34px;
-    margin-bottom: 10px;
+body.dark .hero {
+    background-color: #1e293b;
 }
 
-.hero p {
-    font-size: 18px;
+.hero button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
 }
 
 section {
@@ -47,17 +64,20 @@ section {
     padding: 30px;
 }
 
+body.dark .about,
+body.dark .education,
+body.dark .skills,
+body.dark .goals,
+body.dark .contact {
+    background-color: #020617;
+}
+
 h2 {
     margin-bottom: 15px;
-    color: #1e293b;
 }
 
 ul {
     margin-left: 20px;
-}
-
-li {
-    margin-bottom: 10px;
 }
 
 footer {
@@ -65,5 +85,4 @@ footer {
     padding: 20px;
     background-color: #1e293b;
     color: white;
-    margin-top: 40px;
 }
